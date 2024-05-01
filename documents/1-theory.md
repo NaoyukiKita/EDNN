@@ -71,8 +71,10 @@ $$
 以上の解釈に則れば、$\boldsymbol{b}^{(l)}$に課されるべき拘束条件を強いて言うのであれば、$\boldsymbol{b}^{(l)}$を興奮性シナプスと抑制性シナプス$\boldsymbol{b}_{\text{(ex)}}^{(l)}, \boldsymbol{b}_{\text{(in)}}^{(l)} \in \mathbb{R}^{D^{(l+1)}}$に分けた時、
 
 $$
-b_{\text{(ex)}, j}^{(l)} > 0 \\
-b_{\text{(in)}, j}^{(l)} > 0
+\begin{align}
+b_{\text{(ex)}, j}^{(l)} &> 0 \\
+b_{\text{(in)}, j}^{(l)} &> 0
+\end{align}
 $$
 
 を満足することである。要するに$\boldsymbol{b}^{(l)}$そのものへの拘束条件は陽に与えられないのであるが、バイアス項をシナプスと捉えることでそれを更新することに対する妥当性が得られる。
